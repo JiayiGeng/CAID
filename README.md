@@ -1,6 +1,6 @@
-# async-swe-agents
+# Centralized Asynchronous Isolated Delegation (CAID)
 
-This repo contains the code for CAID (Centralized Asynchronous Isolated Delegation), a multi-agent workflow where a central manager agent delegates tasks to multiple engineer agents to execute asynchronously in isolated git worktrees.
+This repo contains the code for CAID, a multi-agent workflow where a central manager agent delegates tasks to multiple engineer agents to execute asynchronously in isolated git worktrees.
 
 <p align="center">
   <img src="teaser/multi-agent-teaser.png" alt="CAID Overview" width="80%">

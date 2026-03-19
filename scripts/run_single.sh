@@ -1,11 +1,10 @@
 #!/bin/bash
 WORKING_DIR=$(pwd)
-export JUDGE_PYTHON="/Users/jiayigeng/miniconda3/bin/python"
+export JUDGE_PYTHON=""
 
 # ===================== Common Parameters =====================
 task="paperbench"  # "commit0" or "paperbench"
-# model="litellm_proxy/fireworks_ai/accounts/fireworks/models/minimax-m2p5"
-model="litellm_proxy/fireworks_ai/accounts/fireworks/models/glm-4p7"
+model=""
 max_iterations=100
 
 # ===================== Commit0 Parameters =====================
@@ -18,7 +17,7 @@ paperbench_dir=""
 test_max_depth=999
 test_reproduce_timeout=300
 judge_type="simple"
-judge_model="azure_ai/gpt-5-mini"
+judge_model="gpt-5-mini"
 code_dev=true
 
 # ===================== Build Flags =====================
