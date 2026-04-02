@@ -172,4 +172,10 @@ Special thanks to [OpenHands](https://docs.openhands.dev/sdk) for their open-sou
 
 ## Citation
 ```bibtex
+@article{geng2026effective,
+  title={Effective Strategies for Asynchronous Software Engineering Agents},
+  author={Geng, Jiayi and Neubig, Graham},
+  journal={arXiv preprint arXiv:2603.21489},
+  year={2026}
+}
 ```
